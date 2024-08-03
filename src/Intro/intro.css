@@ -1,0 +1,142 @@
+ .intro-container {
+  display: flex;  
+  margin-top: 9rem ;
+  align-items: center ;
+  position: relative ;
+  height: calc(100vh - 4rem);  
+}
+
+.text-content {
+  flex: 1;  
+  padding: 2rem;
+}
+
+.image-container {
+  flex: 1;  
+ 
+}
+
+.image-container img {
+  max-width: 100%; 
+  position: absolute;
+  top: -4rem;
+  right: 11rem;
+  z-index: -1;
+  padding:2rem;
+  object-fit: cover;
+  /* height: 80vh; */
+  justify-content: center;
+  width: 35rem;
+  height: 100vh;
+}
+
+.intro {
+    height: calc(100vh - 4rem);
+    max-width: 75rem;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+ 
+
+
+.introcontent {
+
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1rem;
+    font-weight: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ 
+}
+
+
+.Iam {
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+
+.hello {
+    font-size: 2rem;
+    color: white;
+}
+
+
+.name {
+    color: yellow;
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+
+
+.introparag {
+font-size: 1.2rem;
+width: 45vw;
+line-height: 1.5;
+color: #fff;
+}
+
+.frontend {
+    font-size: 3rem;
+    width: 65vw;
+    color: #fff;
+} 
+
+
+@media screen and (max-width: 760px) { 
+
+    .bgimg {
+
+        right: -24vw;
+
+    }
+
+    .introparag {
+
+        font-size:  1.3rem;
+        width: 65vw;
+
+}
+
+    .frontend {
+
+        font-size: 2rem;
+        width: 85vw;
+
+    }
+
+    .hello {
+
+        font-size: 1.6rem;
+
+    }
+
+    .Iam {
+
+        font-size: 2rem;
+
+    }
+    .name {
+
+        font-size: 2rem;
+
+    }
+}
+
+@media screen and (min-width:761px) {
+
+.introparag {
+    max-width: 50vw;
+}
+    
+}
+ 

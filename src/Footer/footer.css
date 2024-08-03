@@ -1,0 +1,26 @@
+#footer  {
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    display: flex;
+    height: 4rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    /* font-size: small; */
+    background-color: rgb(40, 40, 40);
+    /* margin-top: 5rem; */
+}
+
+.copywright  {
+    font-size: 0.9rem;
+    color: white;
+    max-width: 35rem;
+    text-align: center;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}

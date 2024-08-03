@@ -1,52 +1,31 @@
-import Search from './component/search/search';
+import Newbar from './Newbar/newbar';
+import Footer from './Footer/footer'
+import Navbar from './Navbar/navbar';
+import Intro from './Intro/intro';
+import Portfolio from './Portfolio/portfolio'
+import Skills from './Skills/skills'
+import Contact from './Contact/contact'
 import './App.css';
-import CurrentWeather from './component/current-weather/current-weather';
-import { openWeatherApi, weatherApiKey,  } from './api';
-import { useState } from 'react';
-import Forecast from './component/forecast-weather/forecast'; 
 
+ 
 
 
 function App() {
-
+ 
   
-  const [CurrentFetch, setCurrentFetch ] = useState(null)
-  const [forcastFetch, setforcastWeatherFetch] = useState(null)
-
-  function handleSearchResult(searchResult) {
-
-
-       const  [lat, lon]  = searchResult.value.split(" ")
-
-       const CurrentWeatherfetch =  fetch(`${openWeatherApi}/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&unit=metric`)
-       const  forcastFectch =  fetch(`${openWeatherApi}/forecast?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&unit=metric`)
-
-       Promise.all([CurrentWeatherfetch, forcastFectch]).then(async (response) => {
-          const weatherResponse = await response[0].json()
-          const forecastResponse = await response[1].json()
-
-          setCurrentFetch({city:searchResult.label, ...weatherResponse})
-          setforcastWeatherFetch({city:searchResult.label, ...forecastResponse})
-
-       })
-       
-       
-
-.catch((err) => console.log(err))
-
-
-  }
-
-  // console.log(CurrentFetch)
-  // console.log(forcastFetch)
+   
+ 
 
 
   return (
-    <div className="container">
 
-      <Search  onsearchChange={handleSearchResult}/>
-     {CurrentFetch &&  <CurrentWeather data={CurrentFetch}/>}
-     {forcastFetch &&  <Forecast  data={forcastFetch }/>}
+    <div className="container">
+ <Navbar/>
+ <Intro />
+ <Portfolio />
+ <Skills />
+ <Contact />
+ <Footer />
 
     </div>  
   );
