@@ -6,7 +6,7 @@ import movieapp from '../Images/movieapp.png'
 import swissmark from '../Images/swissmark.png'
 import academyui from '../Images/academyui.png'
 import todoapp from '../Images/todo-app (1).png'
- 
+import quizapp from '../Images/quizapp.png'
 
 
 const Portfolio = ()  => {
@@ -22,7 +22,7 @@ const Portfolio = ()  => {
                 < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ><img src={movieapp} className='worksimg'/></a>
                 < a href='https://ayodejisamuel.github.io/TODO-APP/' target='_blank' ><img src={todoapp} className='worksimg'/></a>
                 < a href='https://ayodejisamuel.github.io/Academy-UI/' target='_blank' ><img src={academyui} className='worksimg'/></a>
-                < a href='' target='_blank' ><img src={Ayodeji} className='worksimg'/></a>
+                < a href='' target='_blank' ><img src={quizapp} className='worksimg'/></a>
             </div>
            
         </section>

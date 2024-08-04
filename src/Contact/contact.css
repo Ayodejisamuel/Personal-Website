@@ -20,7 +20,7 @@
 
 .contactdesc {
     font-size: 3rem;
-    color: white;
+    color: #fff;
     font-weight: 700; 
     margin-bottom: 1rem;
     text-align: center;
@@ -30,7 +30,7 @@
 }
 
 .contactinfo {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #cfcecf;
  
     
@@ -38,7 +38,7 @@
 }
 
 .contactform {
-    max-width: 60rem;
+    max-width: 90%;
     margin: 1rem auto;
 }
 

@@ -2,6 +2,10 @@ import React from 'react';
 import './skills.css';
 import  Ayodeji from '../Images/Ayodeji.jpg';
 import academyui from '../Images/academyui.png'
+import swissmark from '../Images/swissmark.png'
+import weatherapp from '../Images/weatherapp.png'
+import movieapp from '../Images/movieapp.png'
+import quizapp from '../Images/quizapp.png'
 import Card from '../Card/Card';
 
 const Skills = () => {
@@ -15,16 +19,16 @@ const Skills = () => {
 <div className='skillBars'>
     {/* <Card  img={Ayodeji} name="ReactJS" description="Javascript framework library for creating reuseable user-interfaces."/> */}
 
-    <Card  img={Ayodeji} name="Responsive Design" description="SwissMark"/>
+    <Card  img={swissmark} name="Responsive Design" description="SwissMark"/>
     <Card  img={academyui} name="UI/UX Design" description="Academy UI"/>
-    <Card  img={Ayodeji} name="API Integration" description="Movie App"/>
-    <Card  img={Ayodeji} name="Git/Version Control" description="Weather App"/>
+    <Card  img={movieapp} name="API Integration" description="Movie App"/>
+    <Card  img={weatherapp} name="Git/Version Control" description="Weather App"/>
 
-    <Card  img={Ayodeji} name="State Management" description="Academy UI"/>
+    {/* <Card  img={Ayodeji} name="State Management" description="Academy UI"/> */}
 
-    <Card  img={Ayodeji} name="JavaScript" description="Todo-App"/>
+    <Card  img={quizapp} name="JavaScript" description="Todo-App"/>
 
-    <Card  img={Ayodeji} name="JavaScript" description="Quiz App"/>
+    {/* <Card  img={quizapp} name="JavaScript" description="Quiz App"/> */}
 
 </div>
 </section>

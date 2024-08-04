@@ -87,10 +87,37 @@ color: #cfcecf;
 
 .frontend {
     font-size: 3rem;
+    font-weight: bolder;
     width: 65vw;
-    color: #fff;
+    color: yellow;
 } 
 
+.andspan {
+    font-size: 3rem;
+    width: 65vw;
+    color: white; 
+}
+
+/* intro.css */
+
+/* @keyframes blink {
+    0%, 100% {
+        opacity: 1;
+        color: yellow;
+    }
+    50% {
+        opacity: 0;
+        color: yellow;
+    }
+} */
+
+/* .frontend::after {
+    content: '|';
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink 1s infinite;
+} */
 
 @media screen and (max-width: 760px) { 
 

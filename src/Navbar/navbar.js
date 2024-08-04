@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <section id='navbar'>
 
-            <h2>Logo Image</h2>
+            <h2>Portfolio</h2>
 
             <div className='links'>
 
