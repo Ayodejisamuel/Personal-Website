@@ -21,7 +21,8 @@
 }
 
 .skillBars {
-
+    width: 60%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +74,7 @@
     flex-direction: column;
     text-align: center;
     /* width: 80vw; */
-    width: 100vw;
+    width: 80vw;
 /*  */
 }
 

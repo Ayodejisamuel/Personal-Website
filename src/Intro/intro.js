@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './intro.css';
-import Ayodeji from '../Images/Ayodeji.jpg';
+import deji from '../Images/deji.png';
 import Typed from 'typed.js'
 
 
@@ -25,12 +25,14 @@ const Intro = () => {
             <div class="intro-container">
                 <div class="text-content">
                     <h3 class="hello">Hello,</h3>
-                    <h2 class="Iam">I'm <span class="name">Ayodeji</span></h2>        <span className='andspan'>And i'm a </span><span class="frontend"></span><strong>
+                    <h2 class="Iam">I'm <span class="name">Ayodeji</span></h2>        
+                    <span className='andspan'>A </span><span class="frontend"></span><strong>
                         <p class="introparag">I specialise  in creating visually appealing, responsive, and user-friendly websites.</p>
                     </strong>
                 </div>
                 <div class="image-container">
-                    <img src={Ayodeji} alt="BackgroundImage" />
+                     
+                    {/* <img  className='backgroundimg' src={deji} alt="BackgroundImage" /> */}
                 </div>
             </div>
 

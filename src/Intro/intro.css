@@ -94,7 +94,7 @@ color: #cfcecf;
 
 .andspan {
     font-size: 3rem;
-    width: 65vw;
+    font-weight: bolder;
     color: white; 
 }
 
@@ -120,10 +120,13 @@ color: #cfcecf;
 } */
 
 @media screen and (max-width: 760px) { 
+.image-container img {
+left: 2rem;
 
+}
     .bgimg {
 
-        right: -24vw;
+        left: -24vw;
 
     }
 
@@ -140,6 +143,14 @@ color: #cfcecf;
         width: 85vw;
 
     }
+
+    .andspan {
+        font-size: 2rem;
+    }
+
+   .image-container img {
+    border-radius: 50rem;
+   }
 
     .hello {
 

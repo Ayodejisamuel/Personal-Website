@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 90vw;
     max-width: 65rem;
 }
 
@@ -40,7 +40,7 @@
 @media screen and (max-width: 700px) {
 
     .worksimg {
-        width: 100vw;
+        width: 80vw;
         
     }
     

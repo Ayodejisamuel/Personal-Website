@@ -24,22 +24,24 @@
     font-weight: 700; 
     margin-bottom: 1rem;
     text-align: center;
-
-    /* margin-top: 5rem; */
-
 }
 
 .contactinfo {
     font-size: 1.2rem;
     color: #cfcecf;
- 
-    
-  
 }
 
 .contactform {
     max-width: 90%;
     margin: 1rem auto;
+}
+
+.contactform input {
+    width: 90%;
+}
+
+.contactform textarea {
+    width: 90%;
 }
 
 .text, .email, .msg {
