@@ -43,7 +43,7 @@
 
 .contactbtn {
     background-color: white;
-    color: black;
+    color:rgb(40, 40, 40);
     border: none;
     font:bold;
     font-size: 1.5rem;
@@ -52,6 +52,13 @@
     cursor: pointer;
 }
 
+.contactbtn:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    cursor: pointer;
+    background-color: rgb(40,40,40);
+    border-radius: none;
+}
 
 .navmenu {
     position: absolute;

@@ -31,6 +31,7 @@
 
 .contactinfo {
     font-size: 1rem;
+    color: #cfcecf;
  
     
   
@@ -68,6 +69,11 @@
     background-color: white;
     cursor: pointer;
     font-size: large;
+}
+
+.submitbtn:hover {
+    color: white;
+    background-color:rgb(40, 40, 40) ;
 }
 
 .footerlink {

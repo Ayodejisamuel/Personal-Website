@@ -20,7 +20,7 @@ const Portfolio = ()  => {
                 < a href='https://ayodejisamuel.github.io/Swissmark/' target='_blank' ><img src={swissmark}  className='worksimg'/></a>
                 < a href='https://ayodejisamuel.github.io/react-weather-app/' target='_blank' > <img src={weatherapp} className='worksimg'/></a>
                 < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ><img src={movieapp} className='worksimg'/></a>
-                < a href='' target='_blank' ><img src={todoapp} className='worksimg'/></a>
+                < a href='https://ayodejisamuel.github.io/TODO-APP/' target='_blank' ><img src={todoapp} className='worksimg'/></a>
                 < a href='https://ayodejisamuel.github.io/Academy-UI/' target='_blank' ><img src={academyui} className='worksimg'/></a>
                 < a href='' target='_blank' ><img src={Ayodeji} className='worksimg'/></a>
             </div>

@@ -1,6 +1,6 @@
 #portfolio {
     height: fit-content;
-    max-width: 60rem;
+    /* max-width: 60rem; */
     margin: auto;
     text-align: center;
     align-items: center;
@@ -15,7 +15,7 @@
     align-items: center;
     justify-items: center;
     text-align: center;
-    color: #ffffff;
+    color: #cfcecf;
 }
 
 .works {

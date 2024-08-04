@@ -22,10 +22,10 @@ function App() {
     <div className="container">
  <Navbar/>
  <Intro />
- <Portfolio />
- <Skills />
- <Contact />
- <Footer />
+  <Portfolio />
+  <Skills />
+  <Contact />
+ <Footer />  
 
     </div>  
   );
