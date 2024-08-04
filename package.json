@@ -1,5 +1,5 @@
 {
-    "homepage": "https://ayodejisamuel.github.io/Personal-Websit/",
+    "homepage": "https://ayodejisamuel.github.io/Personal-Website/",
     "name": "react-weather-app",
     "version": "0.1.0",
     "private": true,
@@ -44,6 +44,6 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^6.1.1"
+        "gh-pages": "^6.0.0"
     }
 }

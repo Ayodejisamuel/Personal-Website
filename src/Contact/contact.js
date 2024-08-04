@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="linkcontainer">
             
             <Link className="footerlink">Github</Link>
-            <Link className="footerlink" >Twitter</Link>
+            <Link className="footerlink" >Twiter</Link>
             <Link className="footerlink">Linkedln</Link>
            
             </div>
