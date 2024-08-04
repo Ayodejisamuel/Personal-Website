@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-Websit/static/css/main.62a6ec65.css",
+    "main.js": "/Personal-Websit/static/js/main.293a1306.js",
+    "static/js/787.b30f2593.chunk.js": "/Personal-Websit/static/js/787.b30f2593.chunk.js",
+    "static/media/Ayodeji.jpg": "/Personal-Websit/static/media/Ayodeji.bd998eb116b834e017da.jpg",
+    "index.html": "/Personal-Websit/index.html",
+    "main.62a6ec65.css.map": "/Personal-Websit/static/css/main.62a6ec65.css.map",
+    "main.293a1306.js.map": "/Personal-Websit/static/js/main.293a1306.js.map",
+    "787.b30f2593.chunk.js.map": "/Personal-Websit/static/js/787.b30f2593.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62a6ec65.css",
+    "static/js/main.293a1306.js"
+  ]
+}
