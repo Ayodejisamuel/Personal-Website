@@ -1,10 +1,9 @@
  .intro-container {
   display: flex;  
   margin-top: 9rem ;
-  padding-bottom: 9rem;
   align-items: center ;
   position: relative ;
-  height: calc(100vh - 4rem);  
+  height:fit-content;  
 }
 
 .text-content {

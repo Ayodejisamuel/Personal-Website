@@ -1,5 +1,6 @@
 #portfolio {
-    height: fit-content;
+    height:fit-content;
+    background-color: red;
     /* max-width: 60rem; */
     margin: auto;
     text-align: center;
