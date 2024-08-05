@@ -18,7 +18,7 @@ const Navbar = () => {
 
                 {/* <Link smooth={true} spy={true} className='desktopLink' offset={-100} duration={500} activeClass="active" to="intro">About</Link> */}
 
-                <Link smooth={true} spy={true} className='desktopLink' offset={-120} duration={500} activeClass="active" to="skill">About</Link>
+                <Link smooth={true} spy={true} className='desktopLink' offset={-140} duration={500} activeClass="active" to="skill">About</Link>
 
                 <Link smooth={true} spy={true} className='desktopLink' offset={-75} duration={500} activeClass="active" to="portfolio">Portfolio</Link>
 
@@ -35,9 +35,10 @@ const Navbar = () => {
 
                 {/* <Link onClick={() => setMobMenu(false)} smooth={true} spy={true} className='mobLink' offset={-100} duration={500} activeClass="active" to="intro">About</Link> */}
 
-                <Link onClick={() => setMobMenu(false)} smooth={true} spy={true} className='mobLink' offset={-75} duration={500} activeClass="activ" to="skill">About</Link>
+                <Link onClick={() => setMobMenu(false)} smooth={true} spy={true} className='mobLink' offset={-140} duration={500} activeClass="activ" to="skill">About</Link>
 
                 <Link onClick={() => setMobMenu(false)} smooth={true} className='mobLink' spy={true} offset={-75} duration={500} activeClass="active" to="portfolio">Portfolio</Link>
+
 
                 <Link onClick={() => setMobMenu(false)} smooth={true} className='mobLink' spy={true} offset={-25} duration={500} activeClass="active" to="contact">Contact Me </Link>
             </div>

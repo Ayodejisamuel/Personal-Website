@@ -9,7 +9,7 @@ const Intro = () => {
     useEffect(() => {
       
         const typed = new Typed('.frontend', {
-            strings: ['Frontend Developer', 'Web Designer', 'Backend Developer'],
+            strings: ['Frontend Engineer', 'Web Designer', 'React Developer'],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 100,
