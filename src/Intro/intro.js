@@ -35,6 +35,20 @@ const Intro = () => {
             origin: 'bottom'
         });
         
+        ScrollReveal().reveal(' .Iam',  {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'left'
+        });
+        ScrollReveal().reveal('.introparag',  {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'right'
+        });
 
   
         return () => {
@@ -46,8 +60,8 @@ const Intro = () => {
         <section id='intro'>
             <div className="intro-container">
                 <div className="text-content">
-                    <h3 className="hello">Hello,</h3>
-                    <h2 className="Iam">I'm <span className="name">Ayodeji</span></h2>
+                    <h3 className="hello">Hello, It's me</h3>
+                    <h1 className="Iam">Ayodeji Samuel<span className="name"></span></h1>
                     <span className='andspan'>A </span><span className="frontend"></span>
                     <strong>
                         <p className="introparag">I specialize in creating visually appealing, responsive, and user-friendly websites.</p>

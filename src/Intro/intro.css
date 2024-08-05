@@ -1,9 +1,9 @@
  .intro-container {
   display: flex;  
-  margin-top: 9rem ;
   align-items: center ;
+  margin-top: 12rem;
   position: relative ;
-  height:fit-content;  
+  height:calc(100vh - 15rem);  
 }
 
 .text-content {
@@ -24,7 +24,6 @@
   z-index: -1;
   padding:2rem;
   object-fit: cover;
-  /* height: 80vh; */
   justify-content: center;
   width: 35rem;
   height: 100vh;
@@ -43,7 +42,6 @@
 
 
 .introcontent {
-
     padding: 2rem;
     width: 100vw;
     height: 100vh;
@@ -51,9 +49,7 @@
     font-weight: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
- 
+    justify-content: center; 
 }
 
 

@@ -1,7 +1,7 @@
 #portfolio {
     height:fit-content;
-    background-color: red;
-    /* max-width: 60rem; */
+ 
+    max-width: 60rem;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -25,8 +25,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 90vw;
-    max-width: 65rem;
+    width: 100vw;
+    /* max-width: 65rem; */
 }
 
 .worksimg {
@@ -49,4 +49,12 @@
         max-width: 95vw;
     }
     
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .works {
+        width: 80vw;
+    }
 }

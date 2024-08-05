@@ -9,7 +9,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    background-color: rgb(31, 29, 29);
+    background-color: rgb(40, 40, 40);
     top: 0;
     color: #fff;
     /* max-width: 75rem; */
@@ -62,17 +62,17 @@
 
 .navmenu {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     z-index: 200;
-    right: 2rem;
+    right: .1rem;
     display: flex;
     flex-direction: column;
-    min-width:15rem ;
+    width: 100vw;
     margin: auto;
     background-color: rgb(40,40,40);
     padding: .2rem;
-    /* height: 100vh; */
-    border-radius: 1rem;
+    height: 50vh;
+    
 
 }
 
@@ -82,7 +82,7 @@
     margin: 1.2rem;
     padding: 1rem 2rem;
     font-size: large;
-    background-color: rgb(30,30,30);
+    background-color: rgb(40,40,40);
     text-align: center;
 
 }
