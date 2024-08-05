@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import './skills.css';
 import  Ayodeji from '../Images/Ayodeji.jpg';
-import academyui from '../Images/academyui.png'
-import swissmark from '../Images/swissmark.png'
-import weatherapp from '../Images/weatherapp.png'
-import movieapp from '../Images/movieapp.png'
-import quizapp from '../Images/quizapp.png'
+import portfolio1 from '../Images/portfolio1.jpg'
+import portfolio2 from '../Images/portfolio2.jpg'
+import portfolio3 from '../Images/portfolio3.jpg'
+import portfolio4 from '../Images/portfolio4.jpg'
+import portfolio5 from '../Images/portfolio5.jpg'
+import portfolio6 from '../Images/portfolio6.jpg'
 import Card from '../Card/Card';
 import ScrollReveal from 'scrollreveal';
 
@@ -32,14 +33,14 @@ const Skills = () => {
 <div className='skillBars'>
     {/* <Card  img={Ayodeji} name="ReactJS" description="Javascript framework library for creating reuseable user-interfaces."/> */}
 
-    <Card  img={swissmark} name="Responsive Design" description="SwissMark"/>
-    <Card  img={academyui} name="UI/UX Design" description="Academy UI"/>
-    <Card  img={movieapp} name="API Integration" description="Movie App"/>
-    <Card  img={weatherapp} name="Git/Version Control" description="Weather App"/>
+    <Card  img={portfolio1} name="Responsive Design" description="SwissMark"/>
+    <Card  img={portfolio2} name="UI/UX Design" description="Academy UI"/>
+    <Card  img={portfolio3} name="API Integration" description="Movie App"/>
+    <Card  img={portfolio4} name="Git/Version Control" description="Weather App"/>
 
     {/* <Card  img={Ayodeji} name="State Management" description="Academy UI"/> */}
 
-    <Card  img={quizapp} name="JavaScript" description="Todo-App"/>
+    <Card  img={portfolio5} name="JavaScript" description="Todo-App"/>
 
     {/* <Card  img={quizapp} name="JavaScript" description="Quiz App"/> */}
 

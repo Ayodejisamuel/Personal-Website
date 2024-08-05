@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.4d37a13c.css",
-    "main.js": "/Personal-Website/static/js/main.0882c71c.js",
+    "main.css": "/Personal-Website/static/css/main.d4c39e89.css",
+    "main.js": "/Personal-Website/static/js/main.cb591ba9.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
     "static/media/swissmark.png": "/Personal-Website/static/media/swissmark.744e97143b9875b86c11.png",
@@ -12,12 +12,12 @@
     "static/media/academyui.png": "/Personal-Website/static/media/academyui.237534a4ce1b61f90ac5.png",
     "static/media/todo-app (1).png": "/Personal-Website/static/media/todo-app (1).f281322c92c102212862.png",
     "index.html": "/Personal-Website/index.html",
-    "main.4d37a13c.css.map": "/Personal-Website/static/css/main.4d37a13c.css.map",
-    "main.0882c71c.js.map": "/Personal-Website/static/js/main.0882c71c.js.map",
+    "main.d4c39e89.css.map": "/Personal-Website/static/css/main.d4c39e89.css.map",
+    "main.cb591ba9.js.map": "/Personal-Website/static/js/main.cb591ba9.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d37a13c.css",
-    "static/js/main.0882c71c.js"
+    "static/css/main.d4c39e89.css",
+    "static/js/main.cb591ba9.js"
   ]
 }
