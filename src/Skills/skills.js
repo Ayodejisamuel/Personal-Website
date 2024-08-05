@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './skills.css';
 import  Ayodeji from '../Images/Ayodeji.jpg';
 import academyui from '../Images/academyui.png'
@@ -7,13 +7,26 @@ import weatherapp from '../Images/weatherapp.png'
 import movieapp from '../Images/movieapp.png'
 import quizapp from '../Images/quizapp.png'
 import Card from '../Card/Card';
+import ScrollReveal from 'scrollreveal';
 
 const Skills = () => {
+
+    useEffect(() => {
+        
+        ScrollReveal().reveal('.skillBars',  {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'bottom'
+        });
+        
+    }, [])
 
     return (
  <section id='skill'>
 
-<h1 className="contactdesc">What I Do</h1> 
+<h1  className="contactdesc">What I Do</h1> 
  <h3 className="portinfo">I am a skilled and passionate front-end engineer with experience in creating visualling appealing and user-friendly website. I have a strong understanding on design and a keen eye on details. I am proficient in HTML CSS and JavaScript, React, NextJs as well as Javascript Frameworks and CSS pre-processors.</h3>
 
 <div className='skillBars'>

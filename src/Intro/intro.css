@@ -1,6 +1,7 @@
  .intro-container {
   display: flex;  
   margin-top: 9rem ;
+  padding-bottom: 9rem;
   align-items: center ;
   position: relative ;
   height: calc(100vh - 4rem);  
@@ -98,26 +99,27 @@ color: #cfcecf;
     color: white; 
 }
 
-/* intro.css */
 
-/* @keyframes blink {
+
+ @keyframes blink {
     0%, 100% {
         opacity: 1;
-        color: yellow;
+        
     }
     50% {
         opacity: 0;
-        color: yellow;
+    
     }
-} */
+} 
 
-/* .frontend::after {
+.frontend::after {
     content: '|';
     display: inline-block;
     margin-left: 5px;
     opacity: 1;
     animation: blink 1s infinite;
-} */
+} 
+
 
 @media screen and (max-width: 760px) { 
 .image-container img {
@@ -148,10 +150,7 @@ left: 2rem;
         font-size: 2rem;
     }
 
-   .image-container img {
-    border-radius: 50rem;
-   }
-
+   
     .hello {
 
         font-size: 1.6rem;

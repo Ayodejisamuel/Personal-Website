@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import  './portfolio.css'
 import Ayodeji from '../Images/Ayodeji.jpg'
 import weatherapp from '../Images/weatherapp.png'
@@ -7,9 +7,33 @@ import swissmark from '../Images/swissmark.png'
 import academyui from '../Images/academyui.png'
 import todoapp from '../Images/todo-app (1).png'
 import quizapp from '../Images/quizapp.png'
+import ScrollReveal from 'scrollreveal'
 
 
 const Portfolio = ()  => {
+
+ 
+
+
+    useEffect(()=> {
+
+        ScrollReveal().reveal('.contactdesc, .contactinfo, .portinfo',  {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'top'
+        });
+
+
+        ScrollReveal().reveal('.works', {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'bottom'
+        });
+    })
 
     return (
 

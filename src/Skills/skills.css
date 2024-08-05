@@ -2,13 +2,14 @@
 
     height: calc(100vh - 4rem);  
  
-    margin:0 auto;
+    margin:10rem auto;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center ;
     flex-direction: column;
-
+padding-top: 10rem;
+background-color: red;
 }
 
 .skillinfo  {
@@ -41,7 +42,9 @@
   margin: .5rem 1rem ;
 
 }
-
+#about {
+    margin-top: 10rem;
+}
 
 .skillimg {
     height: 5rem;

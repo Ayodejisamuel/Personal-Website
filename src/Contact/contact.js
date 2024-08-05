@@ -1,11 +1,24 @@
-import  {useRef} from "react";
+import  {useEffect, useRef} from "react";
 import React from 'react'
 import "./contact.css"
 import emailjs from '@emailjs/browser';
 import { Link } from "react-scroll";
+import ScrollReveal from "scrollreveal";
 
 
 const Contact = () => {
+
+    useEffect(() => {
+        
+        ScrollReveal().reveal('#contact form',  {
+            reset: true,
+            distance: '80px',
+            duration: 2000,
+            delay: 500,
+            origin: 'bottom'
+        });
+        
+    })
 
     const form = useRef();
     const sendEmail = (e) => {
