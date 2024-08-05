@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.d4c39e89.css",
-    "main.js": "/Personal-Website/static/js/main.cb591ba9.js",
+    "main.js": "/Personal-Website/static/js/main.ca6fc984.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
-    "static/media/swissmark.png": "/Personal-Website/static/media/swissmark.744e97143b9875b86c11.png",
-    "static/media/movieapp.png": "/Personal-Website/static/media/movieapp.59e8b89c9cd22d7ee6af.png",
     "static/media/deji.png": "/Personal-Website/static/media/deji.3622ecd2505611329b48.png",
-    "static/media/weatherapp.png": "/Personal-Website/static/media/weatherapp.6be81d5a53d33b2dd1c8.png",
-    "static/media/quizapp.png": "/Personal-Website/static/media/quizapp.4535c1f533664485cb3a.png",
-    "static/media/academyui.png": "/Personal-Website/static/media/academyui.237534a4ce1b61f90ac5.png",
-    "static/media/todo-app (1).png": "/Personal-Website/static/media/todo-app (1).f281322c92c102212862.png",
+    "static/media/portfolio3.jpg": "/Personal-Website/static/media/portfolio3.8186df376b322a283488.jpg",
+    "static/media/portfolio5.jpg": "/Personal-Website/static/media/portfolio5.80291050be88a205c33f.jpg",
+    "static/media/portfolio2.jpg": "/Personal-Website/static/media/portfolio2.b125d1148fc72d7d00a3.jpg",
+    "static/media/portfolio4.jpg": "/Personal-Website/static/media/portfolio4.eaddd3f1956ae7b3ac39.jpg",
+    "static/media/portfolio6.jpg": "/Personal-Website/static/media/portfolio6.cfffe2ca4e775e909071.jpg",
+    "static/media/portfolio1.jpg": "/Personal-Website/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
     "index.html": "/Personal-Website/index.html",
     "main.d4c39e89.css.map": "/Personal-Website/static/css/main.d4c39e89.css.map",
-    "main.cb591ba9.js.map": "/Personal-Website/static/js/main.cb591ba9.js.map",
+    "main.ca6fc984.js.map": "/Personal-Website/static/js/main.ca6fc984.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4c39e89.css",
-    "static/js/main.cb591ba9.js"
+    "static/js/main.ca6fc984.js"
   ]
 }
