@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.20af628b.css",
-    "main.js": "/Personal-Website/static/js/main.bfc59fe9.js",
+    "main.css": "/Personal-Website/static/css/main.c874329e.css",
+    "main.js": "/Personal-Website/static/js/main.69299f78.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
     "static/media/swissmark.png": "/Personal-Website/static/media/swissmark.744e97143b9875b86c11.png",
     "static/media/movieapp.png": "/Personal-Website/static/media/movieapp.59e8b89c9cd22d7ee6af.png",
-    "static/media/deji.png": "/Personal-Website/static/media/deji.d8654103ce771d581584.png",
+    "static/media/deji.png": "/Personal-Website/static/media/deji.3622ecd2505611329b48.png",
     "static/media/weatherapp.png": "/Personal-Website/static/media/weatherapp.6be81d5a53d33b2dd1c8.png",
     "static/media/quizapp.png": "/Personal-Website/static/media/quizapp.4535c1f533664485cb3a.png",
     "static/media/academyui.png": "/Personal-Website/static/media/academyui.237534a4ce1b61f90ac5.png",
     "static/media/todo-app (1).png": "/Personal-Website/static/media/todo-app (1).f281322c92c102212862.png",
     "index.html": "/Personal-Website/index.html",
-    "main.20af628b.css.map": "/Personal-Website/static/css/main.20af628b.css.map",
-    "main.bfc59fe9.js.map": "/Personal-Website/static/js/main.bfc59fe9.js.map",
+    "main.c874329e.css.map": "/Personal-Website/static/css/main.c874329e.css.map",
+    "main.69299f78.js.map": "/Personal-Website/static/js/main.69299f78.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20af628b.css",
-    "static/js/main.bfc59fe9.js"
+    "static/css/main.c874329e.css",
+    "static/js/main.69299f78.js"
   ]
 }
