@@ -36,11 +36,11 @@ const Skills = () => {
     <Card  img={portfolio1} name="Responsive Design" description="SwissMark"/>
     <Card  img={portfolio2} name="UI/UX Design" description="Academy UI"/>
     <Card  img={portfolio3} name="API Integration" description="Movie App"/>
-    <Card  img={portfolio4} name="Git/Version Control" description="Weather App"/>
+    {/* <Card  img={portfolio4} name="Git/Version Control" description="Weather App"/> */}
 
     {/* <Card  img={Ayodeji} name="State Management" description="Academy UI"/> */}
 
-    <Card  img={portfolio5} name="JavaScript" description="Todo-App"/>
+    {/* <Card  img={portfolio5} name="JavaScript" description="Todo-App"/> */}
 
     {/* <Card  img={quizapp} name="JavaScript" description="Quiz App"/> */}
 

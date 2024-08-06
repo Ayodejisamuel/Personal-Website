@@ -1,17 +1,15 @@
 #portfolio {
-    height:fit-content;
- 
-    max-width: 60rem;
+    width: 100%;
     margin: auto;
     text-align: center;
     align-items: center;
     display: flex;
+    padding-bottom: 5rem;
     flex-direction: column;
-
 }
 
-.portinfo  {
-    max-width:80vw;
+.portinfo {
+    max-width: 80vw;
     margin: 2rem auto;
     align-items: center;
     justify-items: center;
@@ -20,41 +18,83 @@
 }
 
 .works {
-    margin-top: 5rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr; /* Default to 1 column for mobile */
     align-items: center;
+    gap: 1.5rem;
+    width: 90%;
+    margin-top: 5rem;
+}
+
+.works .portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem rgb(40, 40, 40);
+    overflow: hidden;
+    display: flex;
+}
+
+.portfolio-box .portfolio-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0, 0, 0, .1), #0ef);
+    display: flex;
     justify-content: center;
-    width: 100vw;
-    /* max-width: 65rem; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    transform: translateY(100%);
+    transition: .5s ease;
 }
 
-.worksimg {
-    height: 20rem;
-    width:20rem ;
-    border-radius: 1rem;
-    object-fit: cover;
-    margin-bottom: 1rem;
-    margin: 1rem .5rem;
+.portfolio-box:hover .portfolio-layer {
+    transform: translateY(0);
 }
 
-@media screen and (max-width: 700px) {
-
-    .worksimg {
-        width: 80vw;
-        
-    }
-    
-    .portinfo {
-        max-width: 95vw;
-    }
-    
+.portfolio-layer h4 {
+    font-size: 2rem;
 }
 
+.portfolio-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
 
-@media screen and (min-width: 1200px) {
+.portfolio-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+}
 
+.portfolio-box img {
+    transition: .5s ease;
+    width: 100%;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
     .works {
-        width: 80vw;
+        grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .works {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet */
+    }
+}
+
+@media (min-width: 1024px) {
+    .works {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
     }
 }

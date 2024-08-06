@@ -9,7 +9,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    background-color: rgb(40, 40, 40);
+    background-color: #1F242d;
     top: 0;
     color: #fff;
     /* max-width: 75rem; */
@@ -27,14 +27,14 @@
  
 
 .desktopLink:hover {
-    color: yellow;
-    border-bottom: 3px solid yellow;
+    color: #0ef;
+    border-bottom: 3px solid #0ef;
     padding-bottom: 0.5rem;
     
 }
 
 .active {
-    color: yellow;
+    color: #0ef;
     /* border-bottom: 3px solid yellow; */
     padding-bottom: 0.5rem;  
     /* color: yellow; */
@@ -53,8 +53,8 @@
 }
 
 .contactbtn:hover {
-    color: yellow;
-    border-bottom: 3px solid yellow;
+         color: #0ef;
+    border-bottom: 3px solid #0ef;
     cursor: pointer;
     background-color: rgb(40,40,40);
     border-radius: none;
@@ -88,8 +88,8 @@
 }
 
 .mobLink:hover {
-    color: yellow;
-    border-bottom: 3px solid yellow;
+    color:#0ef;
+    border-bottom: 3px solid #0ef;
     cursor: pointer;
 }
 

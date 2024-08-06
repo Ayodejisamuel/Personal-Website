@@ -9,12 +9,13 @@
     justify-content: center ;
     flex-direction: column;
 padding-top: 10rem;
-background-color: red;
+ 
 }
+
 
 .skillinfo  {
 
-    margin: 2rem;
+    /* margin: 2rem; */
     align-items: center;
     justify-items: center;
     text-align: center;
@@ -28,7 +29,7 @@ background-color: red;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
 
 }
 .skillBar {
@@ -80,6 +81,8 @@ background-color: red;
     width: 80vw;
 /*  */
 }
+
+ 
 
 .skillimg {
     margin-top: 2rem;

@@ -37,7 +37,7 @@ const Contact = () => {
     return (
     <section id="contact">
         <div>
-            <h1 className="contactdesc">Contact Me</h1>
+            <h1 className="contactdesc">Contact <span className="contactdescc">Me!</span></h1>
             <h3 className="contactinfo">Please fill out the form below to discuss any work opportunities.</h3>
             <form  className="contactform" ref={form} onSubmit={sendEmail}>
                 
