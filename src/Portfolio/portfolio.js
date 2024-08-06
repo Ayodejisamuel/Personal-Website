@@ -39,7 +39,7 @@ const Portfolio = () => {
     return (
 
         <section id='portfolio'>
-            <h1 className="contactdesc">Portfolio</h1>
+            <h1 className="contactdesc">Latest <span className='contactdescc'>Projects!</span> </h1>
             <h3 className="portinfo">Kindly find below my Rescent Projects built by utilizing amazing APis, html, css and Javascript using React as a frame work. I am commmited to bring my skills and experience to help grow buisinesses and create strong online presence.</h3>
             <div className='works'>
                 <div className='portfolio-box'>

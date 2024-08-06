@@ -27,7 +27,7 @@ const Skills = () => {
     return (
  <section id='skill'>
 
-<h1  className="contactdesc">What I Do</h1> 
+<h1  className="contactdesc">What I <span className='contactdescc'>Do</span></h1> 
  <h3 className="portinfo">I am a skilled and passionate front-end engineer with experience in creating visualling appealing and user-friendly website. I have a strong understanding on design and a keen eye on details. I am proficient in HTML CSS and JavaScript, React, NextJs as well as Javascript Frameworks and CSS pre-processors.</h3>
 
 <div className='skillBars'>
@@ -36,7 +36,7 @@ const Skills = () => {
     <Card  img={portfolio1} name="Responsive Design" description="SwissMark"/>
     <Card  img={portfolio2} name="UI/UX Design" description="Academy UI"/>
     <Card  img={portfolio3} name="API Integration" description="Movie App"/>
-    {/* <Card  img={portfolio4} name="Git/Version Control" description="Weather App"/> */}
+    {/* <Card  img={portfolio4} name="Git/Version   Control" description="Weather App"/> */}
 
     {/* <Card  img={Ayodeji} name="State Management" description="Academy UI"/> */}
 

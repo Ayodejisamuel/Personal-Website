@@ -1,47 +1,63 @@
- .intro-container {
+ /* .intro-container {
   display: flex;  
- 
+  flex-direction: column;
   align-items: center ;
   margin-top: 12rem;
-  position: relative ;
+ justify-content: center;
   height:calc(100vh - 15rem);  
-}
+} */
 
-.text-content {
+/* .text-content {
   flex: 1;  
   padding: 2rem;
+} */
+
+#intro {
+    min-height: 100vh;
+    padding: 2rem ;
+  
+}
+
+.intro-container {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 100;
 }
 
 .image-container {
-  flex: 1;  
+ 
+  z-index:-100;
  
 }
 
-.image-container img {
-  max-width: 100%; 
-  position: absolute;
-  top: -4rem;
-  right: 11rem;
-  z-index: -1;
-  padding:2rem;
-  object-fit: cover;
-  justify-content: center;
-  width: 35rem;
-  height: 100vh;
-}
+    /* .image-container img {
+    max-width: 100%; 
+    position: absolute;
+    top: -4rem;
+    right: 11rem;
+    z-index: -1;
+    padding:2rem;
+    object-fit: cover;
+    justify-content: center;
+    width: 35rem;
+    height: 100vh;
+    } */
 
-.intro {
+/* .intro {
     height: calc(100vh - 4rem);
     max-width: 75rem;
     width: 100vw;
     margin: 0 auto;
     background-color:#1f242d;
-    overflow: hidden;
-    position: relative;
-}
+    display: flex;
+    flex-direction: column;
+} */
  
 
-
+/* 
 .introcontent {
     padding: 2rem;
     width: 100vw;
@@ -51,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
-}
+} */
 
 
 .Iam {
@@ -77,7 +93,7 @@
 
 .introparag {
 font-size: 1.2rem;
-width: 45vw;
+width: 50vw;
 line-height: 1.5;
 color: #cfcecf;
 }
@@ -117,28 +133,28 @@ color: #cfcecf;
 } 
 
 
-@media screen and (max-width: 760px) { 
+@media screen and (max-width: 960px) { 
 .image-container img {
-left: 2rem;
+/* left: 2rem; */
 
 }
     .bgimg {
 
-        left: -24vw;
+        /* left: -24vw; */
 
     }
 
     .introparag {
 
         font-size:  1.3rem;
-        width: 65vw;
+        /* width: 65vw; */
 
 }
 
     .frontend {
 
         font-size: 2rem;
-        width: 85vw;
+        /* width: 85vw; */
 
     }
 
@@ -168,7 +184,11 @@ left: 2rem;
 @media screen and (min-width:761px) {
 
 .introparag {
-    max-width: 50vw;
+    /* max-width: 50vw; */
+}
+
+.intro-container {
+    justify-content: center;
 }
     
 }

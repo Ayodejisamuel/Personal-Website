@@ -126,7 +126,25 @@
     .contactbtn {
         display: none;
     }
+
+    #navbar {
+        padding: 1rem 4rem;
+    }
     
 }
 
- 
+@media screen and (min-width: 1200px) { 
+
+#navbar {
+    padding: 1rem 6rem;
+}
+
+}
+
+@media screen and (min-width: 1300px) { 
+
+    #navbar {
+        padding: 1rem 10rem;
+    }
+    
+    }
