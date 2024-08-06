@@ -29,6 +29,7 @@ padding-top: 10rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     /* margin: 2rem auto; */
 
 }
@@ -37,7 +38,7 @@ padding-top: 10rem;
     display: flex;
     align-items: center;
     /* justify-content: center; */
-  background-color: rgb(50, 50, 50);
+    background-color:#323942;
   border-radius: 1rem;
  
   margin: .5rem 1rem ;
@@ -91,7 +92,7 @@ padding-top: 10rem;
 }
 
 
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 710px)  {
 
     .skillBar {
         width:80vw;

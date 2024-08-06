@@ -47,10 +47,12 @@
 
 .contactform input {
     width: 90%;
+    background-color:#1f242d;
 }
 
 .contactform textarea {
     width: 90%;
+     background-color:#1f242d;
 }
 
 .text, .email, .msg {
@@ -76,15 +78,17 @@
     margin: 1rem auto;
     padding: 1rem;
     border-radius: .5rem;
-    color: rgb(40, 40, 40);
+    color:#1f242d;
     background-color: white;
     cursor: pointer;
     font-size: large;
+    transform: translateY(0);
 }
 
 .submitbtn:hover {
-    color: white;
-    background-color:rgb(40, 40, 40) ;
+    color: #fff;
+    background-color:#1f242d;
+    transition: .5s ease;
 }
 
 .footerlink {

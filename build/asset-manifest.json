@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.d4c39e89.css",
-    "main.js": "/Personal-Website/static/js/main.fbe0a104.js",
+    "main.css": "/Personal-Website/static/css/main.998b2161.css",
+    "main.js": "/Personal-Website/static/js/main.f44462c3.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
     "static/media/deji.png": "/Personal-Website/static/media/deji.3622ecd2505611329b48.png",
@@ -12,12 +12,12 @@
     "static/media/portfolio6.jpg": "/Personal-Website/static/media/portfolio6.cfffe2ca4e775e909071.jpg",
     "static/media/portfolio1.jpg": "/Personal-Website/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
     "index.html": "/Personal-Website/index.html",
-    "main.d4c39e89.css.map": "/Personal-Website/static/css/main.d4c39e89.css.map",
-    "main.fbe0a104.js.map": "/Personal-Website/static/js/main.fbe0a104.js.map",
+    "main.998b2161.css.map": "/Personal-Website/static/css/main.998b2161.css.map",
+    "main.f44462c3.js.map": "/Personal-Website/static/js/main.f44462c3.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4c39e89.css",
-    "static/js/main.fbe0a104.js"
+    "static/css/main.998b2161.css",
+    "static/js/main.f44462c3.js"
   ]
 }
