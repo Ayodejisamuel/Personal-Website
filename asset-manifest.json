@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.6ae9be12.css",
-    "main.js": "/Personal-Website/static/js/main.4c59a9b3.js",
+    "main.js": "/Personal-Website/static/js/main.a645c759.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
     "static/media/boxicons.svg": "/Personal-Website/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -16,13 +16,17 @@
     "static/media/portfolio6.jpg": "/Personal-Website/static/media/portfolio6.cfffe2ca4e775e909071.jpg",
     "static/media/boxicons.woff2": "/Personal-Website/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "static/media/portfolio1.jpg": "/Personal-Website/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
+    "static/media/movieapp.png": "/Personal-Website/static/media/movieapp.af832618cfc0aa3e85f4.png",
+    "static/media/swissmark.jpg": "/Personal-Website/static/media/swissmark.db54b383e459e518c2e8.jpg",
+    "static/media/weatherapp.jpg": "/Personal-Website/static/media/weatherapp.7b27de77ed1f680d748c.jpg",
+    "static/media/academyui.png": "/Personal-Website/static/media/academyui.afc03905cbee1cae86bd.png",
     "index.html": "/Personal-Website/index.html",
     "main.6ae9be12.css.map": "/Personal-Website/static/css/main.6ae9be12.css.map",
-    "main.4c59a9b3.js.map": "/Personal-Website/static/js/main.4c59a9b3.js.map",
+    "main.a645c759.js.map": "/Personal-Website/static/js/main.a645c759.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ae9be12.css",
-    "static/js/main.4c59a9b3.js"
+    "static/js/main.a645c759.js"
   ]
 }
