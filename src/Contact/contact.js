@@ -42,7 +42,7 @@ const Contact = () => {
         </form>
         <div className="linkcontainer">
         <a href="https://wa.link/h0nwi2" target="_blank"><box-icon className='whatsapp' type="logo" name="whatsapp"></box-icon></a>
-          <a href="github.com/Ayodejisamuel/" target="_blank"><box-icon type="logo" name="github"></box-icon></a>
+          <a href="https://github.com/Ayodejisamuel/" target="_blank"><box-icon type="logo" name="github"></box-icon></a>
           <a href="https://www.linkedin.com/in/ayodeji-faleye-0b683016a/" target="_blank"><box-icon type="logo" name="linkedin-square"></box-icon></a>
         </div>
       </div>
