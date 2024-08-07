@@ -101,3 +101,27 @@
     margin: 3rem auto;
 
 }
+
+/* boxicons font */
+.linkcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .linkcontainer box-icon {
+    width: 40px;
+    height: 40px;
+    /* color: #fff; */
+    transition: color 0.3s;
+  }
+  
+  .linkcontainer box-icon:hover {
+    color: #0ef; 
+  }
+
+  .facebook {
+    color: #0ef;
+  }
+  

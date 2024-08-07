@@ -3,6 +3,7 @@ import "./intro.css";
 import deji from "../Images/deji.png";
 import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
+import 'boxicons'
 
 const Intro = () => {
   useEffect(() => {
@@ -39,7 +40,7 @@ const Intro = () => {
       origin: "left",
     });
     ScrollReveal().reveal(".introparag", {
-      reset: true,
+    //   reset: true,
       distance: "80px",
       duration: 2000,
       delay: 500,
@@ -69,7 +70,7 @@ const Intro = () => {
           </strong>
         </div>
         <div className="image-container">
-          <img className='' src={deji} alt="BackgroundImage" />
+          <img className="" src={deji} alt="BackgroundImage" />
         </div>
       </div>
     </section>

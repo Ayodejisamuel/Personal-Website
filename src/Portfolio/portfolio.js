@@ -1,25 +1,26 @@
 import React, { useEffect } from 'react'
 import './portfolio.css'
-import Ayodeji from '../Images/Ayodeji.jpg'
-import portfolio1 from '../Images/portfolio1.jpg'
-import portfolio2 from '../Images/portfolio2.jpg'
-import portfolio3 from '../Images/portfolio3.jpg'
-import portfolio4 from '../Images/portfolio4.jpg'
-import portfolio5 from '../Images/portfolio5.jpg'
+import academyui from '../Images/academyui.png'
+import movieapp from '../Images/movieapp.png'
+import quizapp from '../Images/quizapp.png'
+import swissmark from '../Images/swissmark.jpg'
+import weatherapp from '../Images/weatherapp.jpg'
 import portfolio6 from '../Images/portfolio6.jpg'
-
+import 'boxicons/css/boxicons.min.css'
 import ScrollReveal from 'scrollreveal'
+
+
+
+
+
 
 
 const Portfolio = () => {
 
-
-
-
     useEffect(() => {
 
         ScrollReveal().reveal('.contactdesc, .contactinfo, .portinfo', {
-            reset: true,
+            // reset: true,
             distance: '80px',
             duration: 2000,
             delay: 500,
@@ -28,7 +29,7 @@ const Portfolio = () => {
 
 
         ScrollReveal().reveal('.works', {
-            reset: true,
+            // reset: true,
             distance: '80px',
             duration: 2000,
             delay: 500,
@@ -39,62 +40,66 @@ const Portfolio = () => {
     return (
 
         <section id='portfolio'>
-            <h1 className="contactdesc">Latest <span className='contactdescc'>Projects!</span> </h1>
+            <h1 id='contactdesc' className="contactdesc">Latest <span className='contactdescc'>Projects!</span> </h1>
             <h3 className="portinfo">Kindly find below my Rescent Projects built by utilizing amazing APis, html, css and Javascript using React as a frame work. I am commmited to bring my skills and experience to help grow buisinesses and create strong online presence.</h3>
             <div className='works'>
                 <div className='portfolio-box'>
-                    <img src={portfolio1} className='worksimg' />
+                    <img src={swissmark} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>SwissMark</h4>
                         <p>Interior Website</p>
-                        <a href='https://ayodejisamuel.github.io/Swissmark/' target='_blank' ></a>
+                        <a href='https://ayodejisamuel.github.io/Swissmark/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
+
                 <div className='portfolio-box'>
-                <img src={portfolio2} className='worksimg' />
+                    <img src={weatherapp} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>Web Design</h4>
                         <p>Weather-Website</p>
-                        <a  href='https://ayodejisamuel.github.io/react-weather-app/' target='_blank' ></a>
+                        <a href='https://ayodejisamuel.github.io/react-weather-app/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
+
                 <div className='portfolio-box'>
-                <img src={portfolio3} className='worksimg' />
+                    <img src={movieapp} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>Movie-app</h4>
                         <p>Movie-Website</p>
-                        < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ></a>
+                        < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+
+                <div className='portfolio-box'>
+                    <img src={academyui} className='worksimg' />
+                    <div className='portfolio-layer'>
+                        <h4>Academy UI</h4>
+                        <p>User Interface</p>
+                        < a href='https://ayodejisamuel.github.io/Academy-UI/' target='_blank' ><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+
+                <div className='portfolio-box'>
+                    <img src={quizapp} className='worksimg' />
+                    <div className='portfolio-layer'>
+                        <h4>Quiz-app</h4>
+                        <p>Quiz-APP</p>
+                        < a href='https://ayodejisamuel.github.io/Quiz-App/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
                 <div className='portfolio-box'>
-                <img src={portfolio4} className='worksimg' />
+                    <img src={portfolio6} className='worksimg' />
                     <div className='portfolio-layer'>
-                        <h4>Movie-app</h4>
-                        <p>Movie-Website</p>
-                        < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ></a>
+                        <h4>Expertnaire</h4>
+                        <p>Digital Marketing Website</p>
+                        < a href='https://ayodejisamuel.github.io/Expertnaire/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
-                </div>
-
-                <div className='portfolio-box'>
-                <img src={portfolio5} className='worksimg' />
-                    <div className='portfolio-layer'>
-                        <h4>Todo-app</h4>
-                        <p>Task-Manager</p>
-                        < a href='https://ayodejisamuel.github.io/TODO-APP/' target='_blank' ></a>
-                    </div>
-                </div>
-
-                <div className='portfolio-box'>
-                <img src={portfolio6} className='worksimg' />
-                    <div className='portfolio-layer'>
-                        <h4>JavaScript</h4>
-                        <p>Calculator</p>
-                        < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ></a>
-                    </div>
-                </div>
+                </div> 
             </div>
 
         </section>
