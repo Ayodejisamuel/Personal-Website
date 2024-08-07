@@ -5,7 +5,7 @@ import movieapp from '../Images/movieapp.png'
 import quizapp from '../Images/quizapp.png'
 import swissmark from '../Images/swissmark.jpg'
 import weatherapp from '../Images/weatherapp.jpg'
-import portfolio6 from '../Images/portfolio6.jpg'
+import expertnaire from '../Images/expertnaire.png'
 import 'boxicons/css/boxicons.min.css'
 import ScrollReveal from 'scrollreveal'
 
@@ -93,7 +93,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className='portfolio-box'>
-                    <img src={portfolio6} className='worksimg' />
+                    <img src={expertnaire} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>Expertnaire</h4>
                         <p>Digital Marketing Website</p>

@@ -5,34 +5,26 @@
 }
 
 #contact {
-
     padding-top: 5rem;
-    align-items: center;
-    text-align:center ;
-    justify-content: center;
-    /* height: 90vh; */
+    text-align: center;
     display: flex;
-    background-color: #323946;
     flex-direction: column;
-   /* background-color: blanchedalmond; */
-
+    align-items: center;
+    background-color: #323946;
 }
-
 
 .contactdesc {
     font-size: 3rem;
     color: #fff;
     font-weight: 700; 
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .contactdescc {
     font-size: 3rem;
-  color: #0ef;
+    color: #0ef;
     font-weight: 700; 
     margin-bottom: 1rem;
-    text-align: center;
 }
 
 .contactinfo {
@@ -45,30 +37,23 @@
     margin: 1rem auto;
 }
 
-.contactform input {
-    width: 90%;
-    background-color:#1f242d;
-}
-
+.contactform input,
 .contactform textarea {
     width: 90%;
-     background-color:#1f242d;
-}
-
-.text, .email, .msg {
-    background-color: rgb(40, 40, 40);
+    background-color: #1f242d;
     padding: 1rem;
     border-radius: 0.5rem;
     color: white;
-    font: bold;
-    width: 100%;
+    font-weight: bold;
     font-size: 1rem;
     max-width: 40rem;
-    margin: .5rem auto;
+    margin: 0.5rem auto;
 }
 
-.text:focus, .email:focus, .msg:focus {
-    border: .1rem solid powderblue;
+.text:focus,
+.email:focus,
+.msg:focus {
+    border: 0.1rem solid powderblue;
     outline: none;
 }
 
@@ -77,18 +62,17 @@
     max-width: 10rem;
     margin: 1rem auto;
     padding: 1rem;
-    border-radius: .5rem;
-    color:#1f242d;
+    border-radius: 0.5rem;
+    color: #1f242d;
     background-color: white;
     cursor: pointer;
     font-size: large;
-    transform: translateY(0);
+    transition: 0.5s ease;
 }
 
 .submitbtn:hover {
     color: #fff;
-    background-color:#1f242d;
-    transition: .5s ease;
+    background-color: #1f242d;
 }
 
 .footerlink {
@@ -98,30 +82,21 @@
 }
 
 .linkcontainer {
-    margin: 3rem auto;
-
-}
-
-/* boxicons font */
-.linkcontainer {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
-  }
-  
-  .linkcontainer box-icon {
+}
+
+.linkcontainer box-icon {
     width: 40px;
     height: 40px;
-    /* color: #fff; */
-    transition: color 0.3s;
-  }
-  
-  .linkcontainer box-icon:hover {
-    color: #0ef; 
-  }
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #0ef; /* This sets the initial color */
+}
 
-  .facebook {
-    color: #0ef;
-  }
-  
+.linkcontainer box-icon:hover {
+    color: #fff;
+}

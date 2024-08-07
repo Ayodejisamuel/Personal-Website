@@ -32,7 +32,9 @@
     box-shadow: 0 0 1rem rgb(40, 40, 40);
     overflow: hidden;
     display: flex;
+
 }
+
 
 .portfolio-box .portfolio-layer {
     position: absolute;
@@ -42,6 +44,7 @@
     height: 100%;
     background: linear-gradient(rgb(0, 0, 0, .1), #0ef);
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -56,11 +59,11 @@
 }
 
 .portfolio-layer h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: .3rem 0 1rem;
 }
 
@@ -88,7 +91,7 @@
 
 .portfolio-layer a {
     color: #fff;
-    
+
 }
 
 @media (max-width: 700px) {
