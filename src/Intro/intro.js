@@ -3,7 +3,7 @@ import "./intro.css";
 import deji from "../Images/deji.png";
 import Typed from "typed.js";
 import ScrollReveal from "scrollreveal";
-import 'boxicons'
+ 
 
 const Intro = () => {
   useEffect(() => {

@@ -47,7 +47,7 @@ const Portfolio = () => {
                     <img src={swissmark} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>SwissMark</h4>
-                        <p>Interior Website</p>
+                        <p>A responsive and user-friendly interior website that targes interior designs for businesses</p>
                         <a href='https://ayodejisamuel.github.io/Swissmark/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
@@ -56,8 +56,8 @@ const Portfolio = () => {
                 <div className='portfolio-box'>
                     <img src={weatherapp} className='worksimg' />
                     <div className='portfolio-layer'>
-                        <h4>Web Design</h4>
-                        <p>Weather-Website</p>
+                        <h4>Weather App</h4>
+                        <p>A responsive weather app built with React that displays real-time weather data.</p>
                         <a href='https://ayodejisamuel.github.io/react-weather-app/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
@@ -67,12 +67,12 @@ const Portfolio = () => {
                     <img src={movieapp} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>Movie-app</h4>
-                        <p>Movie-Website</p>
+                        <p>A React-based movie app that allows users to search movies and add favourties movie</p>
                         < a href='https://ayodejisamuel.github.io/Movie-App/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
-
+{/* 
                 <div className='portfolio-box'>
                     <img src={academyui} className='worksimg' />
                     <div className='portfolio-layer'>
@@ -80,14 +80,15 @@ const Portfolio = () => {
                         <p>User Interface</p>
                         < a href='https://ayodejisamuel.github.io/Academy-UI/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className='portfolio-box'>
                     <img src={quizapp} className='worksimg' />
                     <div className='portfolio-layer'>
-                        <h4>Quiz-app</h4>
-                        <p>Quiz-APP</p>
+                        <h4>Quiz-App</h4>
+                        <p>A JavaScript-based quiz app that challenges users with multiple-choice questions
+                        </p>
                         < a href='https://ayodejisamuel.github.io/Quiz-App/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
@@ -96,12 +97,11 @@ const Portfolio = () => {
                     <img src={expertnaire} className='worksimg' />
                     <div className='portfolio-layer'>
                         <h4>Expertnaire</h4>
-                        <p>Digital Marketing Website</p>
+                        <p>A digital marketing website that sells digital products </p>
                         < a href='https://ayodejisamuel.github.io/Expertnaire/' target='_blank' ><i class='bx bx-link-external'></i></a>
                     </div>
                 </div> 
             </div>
-
         </section>
 
     )
