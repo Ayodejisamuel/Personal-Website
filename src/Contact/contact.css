@@ -81,22 +81,17 @@
     font-weight: 300;
 }
 
-.linkcontainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.linkcontainer box-icon {
+.container i {
     width: 40px;
     height: 40px;
+    font-size: 2rem;
     cursor: pointer;
-    transition: 0.3s ease;
-    color: #0ef; /* This sets the initial color */
-}
-
-.linkcontainer box-icon:hover {
-    color: #fff;
-}
+    transition: 0.5s ease;
+    color:  #fff;
+    
+ 
+  }
+  
+  .linkcontainer i:hover {
+    color: #0ef;
+  }

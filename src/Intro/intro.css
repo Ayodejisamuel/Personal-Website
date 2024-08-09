@@ -12,6 +12,9 @@
   padding: 2rem;
 } */
 
+
+
+
 #intro {
     /* min-height: 100vh; */
     padding: 2rem ;
@@ -22,6 +25,7 @@
 .intro-container {
     margin-top: 10rem;
     display: flex;
+  
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -116,7 +120,7 @@
 
 .introparag {
 font-size: 1.2rem;
-width: 50vw;
+width: 80vw;
 line-height: 1.5;
 color: #cfcecf;
 }
@@ -156,24 +160,31 @@ color: #cfcecf;
 } 
 
 
-@media screen and (max-width: 960px) { 
+@media screen and (max-width: 760px) { 
  
     .introparag {
-
         font-size:  1.3rem;
         /* width: 65vw; */
 
 }
 
+#intro {
+    
+}
+
     .frontend {
 
-        font-size: 2rem;
+        font-size: 1.9rem;
         /* width: 85vw; */
 
     }
 
+    .intro-container {
+        margin-top: 10rem;
+    }
+
     .andspan {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
    
@@ -185,12 +196,12 @@ color: #cfcecf;
 
     .Iam {
 
-        font-size: 2rem;
+        font-size: 1.9rem;
 
     }
     .name {
 
-        font-size: 2rem;
+        font-size: 1.9rem;
 
     }
 }
@@ -202,7 +213,7 @@ color: #cfcecf;
 }
 
 .intro-container {
-    justify-content: center;
+    justify-content: left;
 }
 
 
@@ -220,5 +231,10 @@ color: #cfcecf;
 
  .intro-container {
     margin-top: 4rem;
+    justify-content: center;
+ }
+
+ #intro {
+    height: calc(100vh - 5rem);
  }
 }
