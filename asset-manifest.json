@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.27e50dc3.css",
-    "main.js": "/Personal-Website/static/js/main.cf8c232f.js",
+    "main.css": "/Personal-Website/static/css/main.a8d8a527.css",
+    "main.js": "/Personal-Website/static/js/main.38eacb9a.js",
     "static/js/787.b30f2593.chunk.js": "/Personal-Website/static/js/787.b30f2593.chunk.js",
     "static/media/Ayodeji.jpg": "/Personal-Website/static/media/Ayodeji.bd998eb116b834e017da.jpg",
     "static/media/boxicons.svg": "/Personal-Website/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -22,12 +22,12 @@
     "static/media/weatherapp.jpg": "/Personal-Website/static/media/weatherapp.7b27de77ed1f680d748c.jpg",
     "static/media/academyui.png": "/Personal-Website/static/media/academyui.afc03905cbee1cae86bd.png",
     "index.html": "/Personal-Website/index.html",
-    "main.27e50dc3.css.map": "/Personal-Website/static/css/main.27e50dc3.css.map",
-    "main.cf8c232f.js.map": "/Personal-Website/static/js/main.cf8c232f.js.map",
+    "main.a8d8a527.css.map": "/Personal-Website/static/css/main.a8d8a527.css.map",
+    "main.38eacb9a.js.map": "/Personal-Website/static/js/main.38eacb9a.js.map",
     "787.b30f2593.chunk.js.map": "/Personal-Website/static/js/787.b30f2593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27e50dc3.css",
-    "static/js/main.cf8c232f.js"
+    "static/css/main.a8d8a527.css",
+    "static/js/main.38eacb9a.js"
   ]
 }
