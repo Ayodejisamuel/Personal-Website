@@ -59,81 +59,46 @@
         transform: translateY(0);
     }
     
-}
-    /* .image-container img {
-    max-width: 100%; 
-    position: absolute;
-    top: -4rem;
-    right: 11rem;
-    z-index: -1;
-    padding:2rem;
-    object-fit: cover;
-    justify-content: center;
-    width: 35rem;
-    height: 100vh;
-    } */
-
-/* .intro {
-    height: calc(100vh - 4rem);
-    max-width: 75rem;
-    width: 100vw;
-    margin: 0 auto;
-    background-color:#1f242d;
-    display: flex;
-    flex-direction: column;
-} */
- 
-
-/* 
-.introcontent {
-    padding: 2rem;
-    width: 100vw;
-    height: 100vh;
-    font-size: 1rem;
-    font-weight: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-} */
+} 
 
 
 .Iam {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #fff;
 }
 
 
 
 .hello {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: white;
 }
 
 
 .name {
     color: #0ef;
-    line-height: 1.5;
-    font-size: 3rem;
+    /* line-height: 1.5; */
+    font-size: 2.5rem;
 
 }
 
 
 .introparag {
-font-size: 1.2rem;
+font-size: 1rem;
 width: 80vw;
-line-height: 1.5;
+/* line-height: 1.5; */
 color: #cfcecf;
 }
 
 .frontend {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     width: 65vw;
     color: #0ef;
 } 
 
 .andspan {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: white; 
 }
@@ -163,18 +128,30 @@ color: #cfcecf;
 @media screen and (max-width: 760px) { 
  
     .introparag {
-        font-size:  1.3rem;
+        font-size:  1.2rem;
         /* width: 65vw; */
 
 }
 
-#intro {
+.linkcontainer  i {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color:  #0ef;
     
+  
+}
+
+#intro {
+    margin-top: 3rem;
+ 
 }
 
     .frontend {
 
-        font-size: 1.9rem;
+        font-size: 2rem;
         /* width: 85vw; */
 
     }
@@ -184,7 +161,7 @@ color: #cfcecf;
     }
 
     .andspan {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
    
@@ -196,12 +173,12 @@ color: #cfcecf;
 
     .Iam {
 
-        font-size: 1.9rem;
+        font-size:2rem;
 
     }
     .name {
 
-        font-size: 1.9rem;
+        font-size: 2rem;
 
     }
 }
@@ -210,14 +187,12 @@ color: #cfcecf;
 
 .introparag {
     max-width: 50vw;
+    font-size: 1.3rem;
 }
 
 .intro-container {
     justify-content: left;
 }
-
-
-    
 }
 
 
@@ -226,15 +201,24 @@ color: #cfcecf;
  .image-container {
     display: flex;
     position: relative;
-    bottom: 5rem;
+    top: -1.5rem;
  }
 
  .intro-container {
-    margin-top: 4rem;
+    margin-top: 3rem;
     justify-content: center;
  }
 
  #intro {
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
+    /* margin-top: 3rem; */
  }
+}
+
+@media screen and (min-width:1200px) { 
+
+    .intro-container {
+        margin-top: 5rem;
+    }
+
 }
