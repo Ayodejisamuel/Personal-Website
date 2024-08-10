@@ -29,7 +29,7 @@ const Navbar = () => {
                 <Link className="contactbtn" smooth={true} spy={true} offset={-25} duration={500} activeClass="active" to="contact" >Contact Me</Link>
             </div>
             {/* Start of mobile Menu */}
-            <h2 onClick={() => setMobMenu(!mobMenu)} className='mobMenu'><img src={hamburger} /></h2>
+            <div  onClick={() => setMobMenu(!mobMenu)} className='mobMenu'><img src={hamburger} /></div>
             <div className='navmenu' style={{ display: mobMenu ? 'flex' : 'none' }} >
 
                 <Link onClick={() => setMobMenu(false)} smooth={true} className='mobLink' spy={true} offset={-2000} duration={500} activeClass="active" to="intro">Home</Link>

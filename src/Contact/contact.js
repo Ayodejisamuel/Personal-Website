@@ -56,9 +56,6 @@ const Contact = () => {
           </a>
         </div>
         </form>
-
-        
-
       </div>
     </section>
   );

@@ -3,7 +3,8 @@ body {
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-       background-color: #1f242d;
+       /* background-color: #1f242d; */
+       background-color: #0a0a23;
        color: #0ef;
     
   

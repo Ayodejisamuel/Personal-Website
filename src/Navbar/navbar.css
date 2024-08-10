@@ -9,7 +9,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    background-color: #1F242d;
+    background-color: #0a0a23;
     top: 0;
     color: #fff;
     /* max-width: 75rem; */
@@ -64,14 +64,15 @@
     position: absolute;
     top: 5rem;
     z-index: 200;
-    right: .1rem;
+    right:0;
+    left: 0;
     display: flex;
     flex-direction: column;
     width: 100vw;
     margin: auto;
-    background-color: #1F242d;
+    background-color: #0a0a23;
     padding: .2rem;
-    height: 50vh;
+    height: 100vh;
     
 
 }
@@ -83,7 +84,7 @@
     padding: 1rem 2rem;
     font-size: large;
     border-bottom: 2px solid #0ef;
-    background-color: #1F242d;
+    background-color: #0a0a23;
     text-align: center;
 
 }
@@ -97,7 +98,7 @@
 .mobMenu {
     display: none;
     object-fit: cover;
-    background-color: #1F242d;
+    background-color: #0a0a23;
 }
 @media screen and (min-width: 760px) { 
 
