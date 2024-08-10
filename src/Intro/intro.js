@@ -68,7 +68,7 @@ const Intro = () => {
               user-friendly websites.
             </p>
           </strong>
-          <div className="linkcontainer">
+          <div className="linkcontainerr">
             <a href="tel:+2349038283807" target="_blank" rel="noopener noreferrer">
               <i className='bx bx-phone phone'></i>
             </a>

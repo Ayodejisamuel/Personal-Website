@@ -124,6 +124,31 @@ color: #cfcecf;
     animation: blink 1s infinite;
 } 
 
+.linkcontainerr {
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+}
+
+.linkcontainerr i {
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color:  #0ef;
+    /* border: .1rem solid #0ef;  */
+    /* border-radius: 50%; */
+    margin: 1rem .1rem 3rem 0;
+    
+ 
+  }
+  
+  .linkcontainerr i:hover {
+    color: #fff;
+  }
+
 
 @media screen and (max-width: 760px) { 
  
@@ -133,16 +158,6 @@ color: #cfcecf;
 
 }
 
-.linkcontainer  i {
-    width: 40px;
-    height: 40px;
-    font-size: 2rem;
-    cursor: pointer;
-    transition: 0.5s ease;
-    color:  #0ef;
-    
-  
-}
 
 #intro {
     margin-top: 3rem;
@@ -201,11 +216,11 @@ color: #cfcecf;
  .image-container {
     display: flex;
     position: relative;
-    top: -1.5rem;
+    top: -4.5rem;
  }
 
  .intro-container {
-    margin-top: 3rem;
+    margin-top: 5rem;
     justify-content: center;
  }
 
@@ -218,7 +233,7 @@ color: #cfcecf;
 @media screen and (min-width:1200px) { 
 
     .intro-container {
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
 }
